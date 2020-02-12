@@ -566,3 +566,46 @@ button.account:hover {
 .footer-inferiore a:hover {
     color: white;
 }
+@media screen and (max-width: 767px) {
+    #jumbotron .testi {
+        margin-top: 0;
+    }
+
+    #jumbotron .testi h1 {
+        font-size: 40px;
+    }
+
+    #jumbotron {
+        background-image: none;
+        padding-top: 0;
+    }
+
+    #jumbotron .container {
+        padding-top: 80px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .navbar {
+        background-color: #0049ff;
+        border: none;
+        padding-top: 20px;
+    }
+
+    .navbar-default button {
+        background-color: #0049ff;
+        border: none;
+    }
+
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #7ba4ff;
+    }
+
+    .navbar-default .navbar-header button:hover {
+        background-color: #0049ff;
+        border: none;
+    }
+}
