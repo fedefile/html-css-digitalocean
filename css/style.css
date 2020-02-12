@@ -1,0 +1,568 @@
+.ms-bg-lightblue {
+    background-color: #0049ff;
+}
+
+.ms-bg-grey {
+    background-color: #f4f5f9;
+}
+
+.ms-bg-blue {
+    background-color: #000e28;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+header {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    line-height: 72px;
+    z-index: 999;
+}
+
+.logodigital {
+    height: 50px;
+    width: 230px;
+}
+
+.logodigital {
+    transform: translateY(-72px);
+}
+
+.logo-bianco {
+    width: 150px;
+}
+
+.navbar {
+    overflow-y: hidden;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #434d66;
+    font-weight: 600;
+}
+
+.navbar-default button {
+    background-color: white;
+    color: #0a68ee;
+    border: 1px solid #0a68ee;
+    border-radius: 4px;
+    padding: 8px 15px 5px;
+}
+
+.navbar-default .navbar-right>li>a {
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.navbar-default button:hover {
+    background-color: #0a68ee;
+    color: white;
+}
+
+.navbar-default {
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #0049ff;
+}
+
+#jumbotron {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-size: cover;
+}
+
+#jumbotron .container {
+    position: relative;
+    padding: 182px 0 80px;
+}
+
+#jumbotron .testi {
+    margin-top: 130px;
+    padding-bottom: 30px;
+}
+
+#jumbotron .testi p {
+    color: #b6d2ff;
+    font-size: 25px;
+}
+
+#jumbotron .testi h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#jumbotron .jumbotron {
+    background-color: white;
+    text-align: center;
+}
+
+.jumbotron h3 {
+    color: #051b4c;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.jumbotron input {
+    border: none;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    padding: 30px 15px 35px;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+.container .jumbotron {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+}
+
+button.account {
+    width: 100%;
+    background-color: #0069ff;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+button.account:hover {
+    background-color: #1633ff;
+    color: white;
+}
+
+.jumbotron p {
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.jumbotron span {
+    font-size: 12px;
+    color: #6b727c;
+}
+
+.jumbotron button {
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.jumbotron .icona {
+    width: 46%;
+    text-align: left;
+    background-color: #f1f8ff;
+    color: #091b3f;
+    margin-bottom: 25px;
+}
+
+.jumbotron .icona:hover {
+    background-color: #d5e4f7;
+}
+
+.jumbotron .barra {
+    display: inline-block;
+    width: 130px;
+    border: 1px solid #e7e8ea;
+    transform: translateY(-3px);
+}
+
+.jumbotron .sx {
+    margin-right: 4%;
+}
+
+.jumbotron .icon-dx, .jumbotron .icon-sx {
+    margin-right: 40px;
+}
+
+.jumbotron .icon-sx {
+    color: orange;
+}
+
+.jumbotron .icon-dx {
+    color: grey;
+}
+
+.jumbotron .termini {
+    text-decoration: underline;
+}
+
+.jumbotron .termini {
+    color: #0069ff;
+}
+
+.jumbotron .termini:hover {
+    color: #0069ff;
+}
+
+.area-brand {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 70px 0;
+}
+
+.area-brand p {
+    color: #959cae;
+}
+
+.area-brand img {
+    height: 76px;
+}
+
+
+.area-brand .ultimo-brand {
+    height: 36px;
+    transform: translateY(50%);
+}
+
+.area-brand a {
+    color: #395ea4;
+}
+
+.area-brand p.link {
+    margin-top: 30px;
+}
+
+.area-brand a:hover {
+    color: #395ea4;
+    text-decoration: none;
+}
+
+.prima-sezione-bianca {
+    padding: 100px 0 50px;
+}
+
+.prima-sezione-bianca h2 {
+    color: #001d53;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.prima-sezione-bianca h4 {
+    color: #001d53;
+    margin-bottom: 15px;
+}
+
+.prima-sezione-bianca p {
+    color: #838b98;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.prima-sezione-bianca .sottotitolo {
+    font-size: 22px;
+}
+
+.prima-sezione-bianca i {
+    color: #0868f0;
+    font-size: 30px;
+}
+
+.prima-sezione-bianca li {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #838b98;
+    border-left: 2px solid #e7e8ea;
+}
+
+.prima-sezione-bianca li:hover {
+    color: #001d53;
+}
+
+.prima-sezione-bianca li:first-child {
+    color: #001d53;
+    border-left: 2px solid #2d63ad;
+}
+
+.sezione-slide {
+    padding: 100px 0;
+}
+
+.sezione-slide h2 {
+    color: #001d53;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.sezione-slide p {
+    color: #838b98;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sezione-slide .sottotitolo {
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.sezione-slide span {
+    font-size: 30px;
+    transform: translateY(260px);
+}
+
+.glyphicon-menu-right {
+    color: #051b4c;
+}
+
+.glyphicon-menu-right:hover {
+    color: #0049ff;
+}
+
+.glyphicon-menu-left {
+    color: #abb2c2;
+}
+
+.sezione-slide i {
+    font-size: 10px;
+    padding: 0 4px;
+    color: #0069ff;
+}
+
+.business {
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.business h2 {
+    color: #001d53;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+.business p {
+    color: #838b98;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.business h4 {
+    color: #001d53;
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.business i {
+    color: #0868f0;
+    font-size: 30px;
+}
+
+.business a {
+    color: #2a63b2;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.business a:hover {
+    color: #2a63b2;
+    text-decoration: none;
+}
+
+.business .card {
+    margin-bottom: 30px;
+}
+
+.world {
+    color: white;
+    background-color: #041b4f;
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.world h2 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+.world a {
+    text-align: right;
+    margin-right: 15px;
+    font-weight: 600;
+    color: #24beca;
+}
+
+.world a:hover {
+    color: #005fe6;
+    text-decoration: none;
+}
+
+.world hr {
+    border: 1px solid #3c517e;
+    margin-bottom: 10px;
+}
+
+.linea-world {
+    padding-bottom: 10px;
+}
+
+.linea-world:last-child {
+    padding-bottom: 50px;
+}
+
+.linea-world .targa {
+    font-weight: 600;
+}
+
+.linea-world .place {
+    color: #8393b7;
+}
+
+.rockerbox {
+    background-color: white;
+    border: 1px solid #e7e8ea;
+    padding: 30px 40px;
+    margin-bottom: 25px;
+}
+
+.rockerbox img {
+    width: 190px;
+}
+
+.rockerbox p {
+    color: #8c93a5;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.rockerbox p.nome {
+    font-size: 17px;
+}
+
+.rockerbox span {
+    color: #8c93a5;
+    font-size: 12px;
+}
+
+.rockerbox a {
+    color: #3e72bd;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.teams {
+    text-decoration: underline;
+    color: #3e72bd;
+}
+
+.teams:hover {
+    color: #3e72bd;
+}
+
+.rockerbox a:hover {
+    color: #3e72bd;
+    text-decoration: none;
+}
+
+.sezione-slide span.rockerbox-lt-gt {
+    transform: translateY(150px);
+}
+
+.seconda-sezione-azzurra {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.seconda-sezione-azzurra h2 {
+    font-weight: 600;
+}
+
+.seconda-sezione-azzurra button {
+    color: #0f67e5;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 25px;
+    margin-top: 30px;
+}
+
+.seconda-sezione-azzurra button:hover {
+    background-color: hsla(0,0%,100%,.8);
+}
+
+/* stilizzazione footer */
+
+.footer-superiore {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #323e56;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer-superiore span {
+    color: white;
+}
+
+.footer-superiore ul {
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-superiore li {
+    line-height: 30px;
+}
+
+.footer-superiore a {
+    color: #5e6679;
+}
+
+.footer-superiore a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-inferiore {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.footer-inferiore .fa-digital-ocean {
+    color: #0080ff;
+    font-size: 40px;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+.footer-inferiore span {
+    color: #798291;
+    font-size: 15px;
+}
+
+.footer-inferiore a {
+    font-size: 23px;
+    color: #7f8794;
+}
+
+.footer-inferiore a:hover {
+    color: white;
+}
